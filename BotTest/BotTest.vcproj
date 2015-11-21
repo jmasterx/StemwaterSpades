@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="BotTest"
+	ProjectGUID="{7BA0A3A9-0BD0-430C-9146-7FFE3D89D751}"
+	RootNamespace="BotTest"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="1"
+			CharacterSet="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				AdditionalIncludeDirectories="$(SolutionDir)/Spades Game"
+				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
+				MinimalRebuild="true"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="4"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="DLL_vc9_DLL_Debug_Win32.lib"
+				LinkIncremental="2"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="1"
+			CharacterSet="1"
+			WholeProgramOptimization="1"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				EnableIntrinsicFunctions="true"
+				AdditionalIncludeDirectories="$(SolutionDir)/Spades Game"
+				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
+				RuntimeLibrary="0"
+				EnableFunctionLevelLinking="true"
+				UsePrecompiledHeader="0"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="LibStatic_vc9_LibStatic_Release_Win32.lib ws2_32.lib"
+				LinkIncremental="1"
+				GenerateDebugInformation="true"
+				SubSystem="1"
+				OptimizeReferences="2"
+				EnableCOMDATFolding="2"
+				TargetMachine="1"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath="..\Spades Game\Game\Utility\Base64.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\bottestmain.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Card\Card.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Card\CardShuffler.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\GameClientState.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Utility\MersenneTwister.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetAIIndividualSpadesBot.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetAIIndividualSpadesBot.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetAIPartnershipSpadesBot.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetAIPartnershipSpadesBot.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetEventDecoder.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetEventEncoder.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetEventListener.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetMessageEncoder.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetMessageParser.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetMessagePart.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetPacketParser.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetSpadesGame.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\RawGameListener.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\ServerClient.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\ServerInstance.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\ServerListener.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\ServerPeer.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\SharedPlayer.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGame.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGameInfo.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGameMessage.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGameMessageSender.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesMessageSender.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath="..\Spades Game\Game\Card\Card.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Card\CardShuffler.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Utility\console.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\NetSpadesGame.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\Net\RawGameListener.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGame.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGameInfo.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGameMessage.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGameMessages.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesGameMessageSender.hpp"
+				>
+			</File>
+			<File
+				RelativePath="..\Spades Game\Game\SpadesGame\SpadesMessageSender.hpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

@@ -1,0 +1,29 @@
+#ifndef CGE_SHARED_PLAYER_ENUMS_HPP
+#define CGE_SHARED_PLAYER_ENUMS_HPP
+namespace cge
+{
+	enum GenderEnum
+	{
+		MALE_GENDER,
+		FEMALE_GENER,
+		OTHER_GENDER,
+		UNDEFINED_GENDER
+	};
+
+	enum EthnicEnum
+	{
+		WHITE_ETHNICITY,
+		BLACK_ETHNICITY,
+		ASIAN_ETHNICITY,
+		HISPANIC_ETHNICITY,
+		UNDEFINED_ETHNICITY
+	};
+
+	enum MembershipLevelEnum
+	{
+		BASIC_MEMBERSHIP,
+		ELITE_MEMBERSHIP
+	};
+}
+
+#endif

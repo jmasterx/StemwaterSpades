@@ -1,0 +1,44 @@
+#ifndef CGE_HOSTING_CONSTANTS_HPP
+#define CGE_HOSTING_CONSTANTS_HPP
+namespace cge
+{
+//#define CGE_DEV_QUICK_GAMES
+	#ifdef CGE_DEV_QUICK_GAMES
+	#define HOSTING_SCORE_0 35
+	#define HOSTING_SCORE_1 50
+	#define HOSTING_SCORE_2 65
+	#define HOSTING_SCORE_3 80
+	#define HOSTING_SCORE_4 100
+
+	#define HOSTING_TIME_0 1
+	#define HOSTING_TIME_1 5
+	#define HOSTING_TIME_2 10
+	#define HOSTING_TIME_3 20
+	#define HOSTING_TIME_4 50
+
+	#define HOSTING_HAND_0 1
+	#define HOSTING_HAND_1 5
+	#define HOSTING_HAND_2 10
+	#define HOSTING_HAND_3 20
+	#define HOSTING_HAND_4 50
+	#else
+	#define HOSTING_SCORE_0 200
+	#define HOSTING_SCORE_1 300
+	#define HOSTING_SCORE_2 400
+	#define HOSTING_SCORE_3 500
+	#define HOSTING_SCORE_4 600
+
+	#define HOSTING_TIME_0 10
+	#define HOSTING_TIME_1 15
+	#define HOSTING_TIME_2 20
+	#define HOSTING_TIME_3 30
+	#define HOSTING_TIME_4 50
+
+	#define HOSTING_HAND_0 5
+	#define HOSTING_HAND_1 10
+	#define HOSTING_HAND_2 15
+	#define HOSTING_HAND_3 20
+	#define HOSTING_HAND_4 30
+	#endif
+}
+#endif
